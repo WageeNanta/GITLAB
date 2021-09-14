@@ -43,10 +43,14 @@ void main()
     }
     printf("\nContinue (YES for Yes)? ");
 <<<<<<< HEAD
+<<<<<<< HEAD
     scanf("%s", answer);
 =======
     scanf("%s", answer);
 >>>>>>> 6116870b2c7acf4dcbaa16ddad3020354ed3975f
+=======
+    scanf("%s", answer);
+>>>>>>> 7d4b0f1e32677aca238158a1d55d6fb75b4c1a6f
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
 }
