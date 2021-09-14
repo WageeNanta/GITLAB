@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[50], G[5], answer[10];
+{ char Name[50], G[5], ans[10];
   int i;
   do
   {
-    printf("What is your Name? ");
+    printf("What is your name? ");
     scanf("%s", Name);
     do
     {
@@ -42,7 +42,7 @@ void main()
       printf("  But Sad! You can receive blood only from: O\n");
     }
     printf("\nContinue (YES for Yes)? ");
-    scanf("%s", answer);
+    scanf("%s", ans);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
 }
