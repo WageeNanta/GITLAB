@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
 
-{ char Name[50], G[6], ans[10];
+{ char Name[50], G[6], Ans[10];
   int i;
   do
   {
@@ -43,7 +43,7 @@ void main()
       printf("  But Sad! You can receive blood only from: O\n");
     }
     printf("\nContinue (YES for Yes)? ");
-    scanf("%s", ans);
-  } while (strcmp(ans, "YES") == 0);
+    scanf("%s", Ans);
+  } while (strcmp(Ans, "YES") == 0);
   printf("Goodbye\n");
 }
