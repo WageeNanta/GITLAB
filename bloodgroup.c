@@ -42,7 +42,7 @@ void main()
       printf("  But Sad! You can receive blood only from: O\n");
     }
     printf("\nContinue (YES for Yes)? ");
-    scanf("%s", ans);
+    scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
 }
